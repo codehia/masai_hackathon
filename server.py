@@ -42,7 +42,3 @@ def add_questions():
     data = request.json
     _write_to_csv(data)
     return Response(status=200)
-
-
-if __name__ == '__main__':
-    app.run()
