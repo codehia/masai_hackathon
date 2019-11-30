@@ -1,2 +1,2 @@
-python server.py
+release: python server.py
 
